@@ -1,0 +1,39 @@
+{
+  "name": "template-static-project",
+  "version": "1.0.0",
+  "description": "Plantilla para proyectos web estaticos",
+  "main": "./src/index.tsx",
+  "scripts": {
+    "build": "webpack --mode production --colors --progress",
+    "build:dev": "webpack --mode development --colors --progress",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [],
+  "author": "Juan Contreras <jcontrerasmeneses@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcontrerasm/template-react-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcontrerasm/template-react-project/issues"
+  },
+  "homepage": "https://github.com/jcontrerasm/template-react-project#readme",
+  "devDependencies": {
+    "@types/node": "11.9.4",
+    "babel-core": "6.26.2",
+    "babel-loader": "8.0.5",
+    "clean-webpack-plugin": "1.0.1",
+    "file-loader": "3.0.1",
+    "html-loader": "0.5.5",
+    "html-webpack-plugin": "3.2.0",
+    "image-webpack-loader": "4.6.0",
+    "pug-html-loader": "1.1.5",
+    "resolve-url-loader": "3.0.1",
+    "ts-loader": "5.3.3",
+    "typescript": "3.3.3",
+    "webpack": "4.29.4",
+    "webpack-cli": "3.2.3",
+    "webpack-dev-server": "3.1.14"
+  }
+}

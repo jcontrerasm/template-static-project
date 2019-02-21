@@ -1,0 +1,35 @@
+doctype
+html(lang="es")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    meta(name="description" content="")
+    meta(name="keywords" content="")
+    meta(name="author" content="")
+    meta(name="robots" content="")
+
+    title Collective Design
+
+    link(rel="shortcut icon" href="images/logo.ico")
+    link(rel="stylesheet", href="libs/normalize/normalize.css")
+    link(rel="stylesheet", href="libs/bootstrap/css/bootstrap.min.css")
+    link(rel="stylesheet" type="text/css" href="css/font-awesome-dist.css")
+    link(rel="stylesheet" type="text/css" href="css/styles-dist.css")
+
+  body
+    section(class="main_container")
+
+        block header
+            include _header
+
+        div(class="main-wrapper")
+            block content
+
+        block footer
+            include _footer
+
+    script(src="libs/jquery/jquery-dist.js")
+    script(src="libs/bootstrap/js/bootstrap.min.js")
+    script(src="libs/scrollflow/scrollflow.js")
+    script(src="js/main-dist.js")
