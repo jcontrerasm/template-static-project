@@ -1,9 +1,10 @@
 # Template Static Project
-El presente proyecto contiene una plantilla para elaborar proyectos web estaticos.
+El presente proyecto contiene una plantilla para elaborar proyectos web estáticos.
 
 ## Stack
-  * **JS:** Typescript
-  * **CSS:** Sass
+  * **HTML:** pug
+  * **JS:** typescript
+  * **CSS:** scss
 
 ## Instalación
 - Ejecutar desde la raiz el comando **`make install`**
