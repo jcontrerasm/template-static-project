@@ -9,27 +9,19 @@ html(lang="es")
     meta(name="author" content="")
     meta(name="robots" content="")
 
-    title Collective Design
+    title Template Static Project
 
-    link(rel="shortcut icon" href="images/logo.ico")
-    link(rel="stylesheet", href="libs/normalize/normalize.css")
-    link(rel="stylesheet", href="libs/bootstrap/css/bootstrap.min.css")
-    link(rel="stylesheet" type="text/css" href="css/font-awesome-dist.css")
-    link(rel="stylesheet" type="text/css" href="css/styles-dist.css")
+    link(rel="shortcut icon" href="favicon.ico")
+    link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css")
 
   body
-    section(class="main_container")
+    section.b-main-container
 
-        block header
-            include _header
+      block header
+        include _header
 
-        div(class="main-wrapper")
-            block content
+      div.b-main-wrapper
+        block content
 
-        block footer
-            include _footer
-
-    script(src="libs/jquery/jquery-dist.js")
-    script(src="libs/bootstrap/js/bootstrap.min.js")
-    script(src="libs/scrollflow/scrollflow.js")
-    script(src="js/main-dist.js")
+      block footer
+        include _footer
